@@ -1,0 +1,105 @@
+2024-10-30 14:34:51 - Starting ProjectApplication using Java 22.0.2 with PID 2688 (C:\Users\Bande\Desktop\Expensetracker\backend\target\classes started by Bande in C:\Users\Bande\Desktop\Expensetracker\backend)
+2024-10-30 14:34:51 - Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-10-30 14:34:51 - No active profile set, falling back to 1 default profile: "default"
+2024-10-30 14:34:52 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-30 14:34:52 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-30 14:34:56 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-30 14:34:56 - Finished Spring Data repository scanning in 210 ms. Found 3 JPA repository interfaces.
+2024-10-30 14:35:06 - Tomcat initialized with port 8080 (http)
+2024-10-30 14:35:06 - Starting service [Tomcat]
+2024-10-30 14:35:06 - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-30 14:35:07 - Initializing Spring embedded WebApplicationContext
+2024-10-30 14:35:07 - Root WebApplicationContext: initialization completed in 15152 ms
+2024-10-30 14:35:08 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-30 14:35:08 - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-30 14:35:08 - HHH000026: Second-level cache disabled
+2024-10-30 14:35:10 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-30 14:35:10 - HikariPool-1 - Starting...
+2024-10-30 14:35:13 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6b98c98c
+2024-10-30 14:35:13 - HikariPool-1 - Start completed.
+2024-10-30 14:35:13 - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-30 14:35:13 - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-10-30 14:35:18 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-30 14:35:18 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-30 14:35:19 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-10-30 14:35:21 - Filter 'jwtRequestFilter' configured for use
+2024-10-30 14:35:21 - Global AuthenticationManager configured with UserDetailsService bean with name userService
+2024-10-30 14:35:22 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-30 14:35:23 - 16 mappings in 'requestMappingHandlerMapping'
+2024-10-30 14:35:23 - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2024-10-30 14:35:23 - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtRequestFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2024-10-30 14:35:23 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-10-30 14:35:23 - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-10-30 14:35:24 - LiveReload server is running on port 35729
+2024-10-30 14:35:25 - Tomcat started on port 8080 (http) with context path '/'
+2024-10-30 14:35:25 - Started ProjectApplication in 34.45 seconds (process running for 48.516)
+2024-10-30 14:35:40 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-30 14:35:40 - Initializing Servlet 'dispatcherServlet'
+2024-10-30 14:35:40 - Detected StandardServletMultipartResolver
+2024-10-30 14:35:40 - Detected AcceptHeaderLocaleResolver
+2024-10-30 14:35:40 - Detected FixedThemeResolver
+2024-10-30 14:35:40 - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@73b82075
+2024-10-30 14:35:40 - Detected org.springframework.web.servlet.support.SessionFlashMapManager@174ca80a
+2024-10-30 14:35:40 - enableLoggingRequestDetails='true': request parameters and headers will be shown which may lead to unsafe logging of potentially sensitive data
+2024-10-30 14:35:40 - Completed initialization in 9 ms
+2024-10-30 14:35:40 - Securing GET /api/roles/getroles
+2024-10-30 14:35:40 - Incoming request URI: /api/roles/getroles
+2024-10-30 14:35:40 - Authorization header: null
+2024-10-30 14:35:40 - Bypassing security for URI: /api/roles/getroles
+2024-10-30 14:35:40 - Set SecurityContextHolder to anonymous SecurityContext
+2024-10-30 14:35:40 - Secured GET /api/roles/getroles
+2024-10-30 14:35:40 - GET "/api/roles/getroles", parameters={}
+2024-10-30 14:35:40 - Mapped to com.personalexpense.project.controller.RoleController#getAllRoles()
+2024-10-30 14:35:40 - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-10-30 14:35:40 - Writing [[com.personalexpense.project.dto.RoleDTO@49fbe53d, com.personalexpense.project.dto.RoleDTO@67d9914a]]
+2024-10-30 14:35:41 - Completed 200 OK
+2024-10-30 14:35:41 - Securing GET /api/roles/getroles
+2024-10-30 14:35:41 - Incoming request URI: /api/roles/getroles
+2024-10-30 14:35:41 - Authorization header: null
+2024-10-30 14:35:41 - Bypassing security for URI: /api/roles/getroles
+2024-10-30 14:35:41 - Set SecurityContextHolder to anonymous SecurityContext
+2024-10-30 14:35:41 - Secured GET /api/roles/getroles
+2024-10-30 14:35:41 - GET "/api/roles/getroles", parameters={}
+2024-10-30 14:35:41 - Mapped to com.personalexpense.project.controller.RoleController#getAllRoles()
+2024-10-30 14:35:41 - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-10-30 14:35:41 - Writing [[com.personalexpense.project.dto.RoleDTO@ca0a287, com.personalexpense.project.dto.RoleDTO@21090caf]]
+2024-10-30 14:35:41 - Completed 200 OK
+2024-10-30 14:35:57 - Securing OPTIONS /api/users/register
+2024-10-30 14:35:57 - Securing POST /api/users/register
+2024-10-30 14:35:58 - Incoming request URI: /api/users/register
+2024-10-30 14:35:58 - Authorization header: null
+2024-10-30 14:35:58 - Bypassing security for URI: /api/users/register
+2024-10-30 14:35:58 - Set SecurityContextHolder to anonymous SecurityContext
+2024-10-30 14:35:58 - Secured POST /api/users/register
+2024-10-30 14:35:58 - POST "/api/users/register", parameters={}
+2024-10-30 14:35:58 - Mapped to com.personalexpense.project.controller.UserController#registerUser(User, BindingResult)
+2024-10-30 14:35:58 - Read "application/json;charset=UTF-8" to [User{id=null, username='tabes', email='tabes@gmail.com', roles=[Role{id=null, name='admin'}], expens (truncated)...]
+2024-10-30 14:35:58 - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-10-30 14:35:58 - Writing [{password=Password must be at least 6 characters}]
+2024-10-30 14:35:58 - Completed 400 BAD_REQUEST
+2024-10-30 15:09:37 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m23s555ms710µs).
+2024-10-30 15:44:51 - Securing GET /api/roles/getroles
+2024-10-30 15:44:51 - Incoming request URI: /api/roles/getroles
+2024-10-30 15:44:51 - Authorization header: null
+2024-10-30 15:44:51 - Bypassing security for URI: /api/roles/getroles
+2024-10-30 15:44:51 - Set SecurityContextHolder to anonymous SecurityContext
+2024-10-30 15:44:51 - Secured GET /api/roles/getroles
+2024-10-30 15:44:51 - GET "/api/roles/getroles", parameters={}
+2024-10-30 15:44:51 - Mapped to com.personalexpense.project.controller.RoleController#getAllRoles()
+2024-10-30 15:44:51 - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-10-30 15:44:51 - Writing [[com.personalexpense.project.dto.RoleDTO@1a5b41e0, com.personalexpense.project.dto.RoleDTO@11818795]]
+2024-10-30 15:44:51 - Completed 200 OK
+2024-10-30 15:44:51 - Securing GET /api/roles/getroles
+2024-10-30 15:44:51 - Incoming request URI: /api/roles/getroles
+2024-10-30 15:44:51 - Authorization header: null
+2024-10-30 15:44:51 - Bypassing security for URI: /api/roles/getroles
+2024-10-30 15:44:51 - Set SecurityContextHolder to anonymous SecurityContext
+2024-10-30 15:44:51 - Secured GET /api/roles/getroles
+2024-10-30 15:44:51 - GET "/api/roles/getroles", parameters={}
+2024-10-30 15:44:51 - Mapped to com.personalexpense.project.controller.RoleController#getAllRoles()
+2024-10-30 15:44:51 - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-10-30 15:44:51 - Writing [[com.personalexpense.project.dto.RoleDTO@7dbbce72, com.personalexpense.project.dto.RoleDTO@778334ec]]
+2024-10-30 15:44:51 - Completed 200 OK
+2024-10-30 15:50:39 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-30 15:50:39 - HikariPool-1 - Shutdown initiated...
+2024-10-30 15:50:39 - HikariPool-1 - Shutdown completed.

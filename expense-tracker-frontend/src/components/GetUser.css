@@ -1,0 +1,67 @@
+/* GetUser.css */
+.get-user-container {
+    background-color: #f4f9f4; /* Light green background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .get-user-container h2 {
+    color: #66bb66; /* Darker green for headings */
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 8px;
+    color: #555; /* Neutral color for label */
+  }
+  
+  input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #cce0cc; /* Soft green border */
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #66bb66; /* Darker green on focus */
+    box-shadow: 0 0 5px rgba(102, 187, 102, 0.5);
+  }
+  
+  button {
+    padding: 10px 15px;
+    background-color: #66bb66; /* Dark green for the button */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #55aa55; /* Slightly darker green on hover */
+  }
+  
+  .user-details {
+    margin-top: 20px;
+    background-color: #e8f5e8; /* Lightest green for the user details box */
+    padding: 15px;
+    border-radius: 6px;
+    border: 1px solid #cce0cc;
+  }
+  
+  .error-message {
+    color: #ff4d4d; /* Red for error messages */
+    margin-top: 10px;
+  }
+  

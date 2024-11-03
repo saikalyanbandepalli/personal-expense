@@ -1,0 +1,12 @@
+/* ProtectedRoute.css */
+.protected-route-container {
+    text-align: center;
+    margin-top: 50px;
+    color: #66bb66; /* Dark green text for consistent theme */
+    font-size: 20px;
+  }
+  
+  .protected-route-container .redirecting {
+    font-style: italic;
+  }
+  

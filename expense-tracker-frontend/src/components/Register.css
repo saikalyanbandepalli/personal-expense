@@ -1,0 +1,54 @@
+/* Register.css */
+.register-container {
+    background-color: #f0fff0; /* Light green background for a friendly look */
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 400px;
+    margin: 50px auto;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .register-container h2 {
+    color: #66bb66; /* Dark green for heading */
+    text-align: center;
+  }
+  
+  .register-container form div {
+    margin-bottom: 15px;
+  }
+  
+  .register-container label {
+    display: block;
+    color: #66bb66; /* Dark green for label text */
+    margin-bottom: 5px;
+  }
+  
+  .register-container input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #66bb66;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .register-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #66bb66; /* Dark green button */
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .register-container button:hover {
+    background-color: #55aa55; /* Slightly darker on hover */
+  }
+  
+  .register-container p {
+    color: #66bb66; /* Message text in dark green */
+    text-align: center;
+    font-weight: bold;
+  }
+  

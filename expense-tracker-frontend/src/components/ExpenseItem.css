@@ -1,0 +1,27 @@
+.expense-card {
+  width: 150px; /* Fixed width for square shape */
+  height: 150px; /* Fixed height for square shape */
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 8px; /* Rounded corners */
+  padding: 16px; /* Padding inside the card */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  background-color: #fff; /* White background */
+  display: flex; /* Flexbox for centering content */
+  flex-direction: column; /* Stack items vertically */
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+  transition: transform 0.2s; /* Animation on hover */
+}
+
+.expense-card:hover {
+  transform: scale(1.05); /* Slightly enlarge the card on hover */
+}
+
+h3 {
+  margin: 0; /* Remove default margin */
+  font-size: 1.2em; /* Adjust font size */
+}
+
+p {
+  margin: 5px 0 0; /* Space above the paragraph */
+}
